@@ -42,7 +42,16 @@
 	
   </dependencies>
   
-  
+  <distributionManagement>
+    <repository>
+         <id>rerepo</id>
+         <url>http://localhost:8081/repository/rerepo/</url>
+    </repository>
+    <snapshotRepository>
+         <id>ssrepo</id>
+         <url>http://localhost:8081/repository/ssrepo/</url>
+    </snapshotRepository>
+ </distributionManagement>
   
   <build>
     <finalName>webapp</finalName>
